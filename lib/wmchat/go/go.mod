@@ -1,5 +1,7 @@
 module github.com/d99kris/nchat/lib/wmchat/go
 
+go 1.18
+
 require go.mau.fi/whatsmeow v0.0.0
 
 replace go.mau.fi/whatsmeow => ./ext/whatsmeow
@@ -49,7 +51,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )
-
-go 1.21
-
-toolchain go1.22.2
